@@ -2,32 +2,53 @@ html * { /* ordem estrutural */
   box-sizing: border-box; /* para organizar o tamanho do meu documento html */
 }
 
-.navbar.navbar-expand-md {
-  background-color: #ff006e;
-  opacity: 0.8;
-  display: inline-block;
+.navbar.navbar-expand-md.fixed-top {
+  display: flex;
+  padding-top: 
+  0;
 }
 
+.navbar.navbar-expand-md.fixed-top>.container {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
 .navbar-brand {
-  margin-left: 25px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  margin-top: 0;
 }
 
 #navbarNav,
 nav-item {
-  margin: 0 10px;
-  font-size: large;
+  background-color: rgb(241, 42, 108);
+  opacity: 0.7;
+  margin: 20px 10px 5px 0;
+  font-size: small;
   display: inline-block
-  }
+    }
 
 .nav-link {
-  color: black;
+  color: rgb(7, 7, 7);
 }
 
 #navbarNav2,
-nav-item.nav-link {
-  background-color: white;
+nav-item {
   display: inline-block;
-  font-size: smaller;
-  font-style: italic;
-  
+  font-size: small;
+  }
+
+
+.nav-box-menu {
+  display: inline-block;
+  width: 100%;
+}
+
+#estilo {
+  width: auto;
+}
+
+.carousel-caption {
+  color: black
 }
